@@ -28,7 +28,7 @@ Recently, I've bumped into a lot more small to medium-sized companies utilizing 
 
 I began by soldering header pins onto both the ESP32-CAM board and the FTDI programmer. For prototyping purposes, I'm a fan of adding header pins right away, so that I can pin parts down onto a breadboard. This just minimizes my touching and fiddling with the boards, potentially subjecting them to electrostatic discharge or other damage.  
 
-![Picture of Circuit](https://github.com/bobbyahines/MC_QR-Reader/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![Picture of Circuit](https://github.com/bobbyahines/MC_QR-Reader/blob/master/ESP32-Cam-Configuration.png "Picture of Circuit")
 
 Using a small breadboard, I arranged the programmer and ESP board. For future convenience, I built a custom wiring harness for connection. Sturdy connections prevent so much debugging.
 
@@ -40,7 +40,7 @@ While this hardware configuration supports flashing to microPython, I have chose
 
 No matter which operating system you are working on, install the IDE by using their downloads page. While some OS have the Arduino IDE listed within their package repositories, most are well out of date. The safest way to ensure this all works is get it direct fromt he source: https://www.arduino.cc/en/Main/Software
 
-### Add the Board to the IDE
+#### Add the Board to the IDE
 
 There are many manufacturers making small microcontroller boards that are Arduino compatible, so you have to tell the IDE to which board you are going to connect. Espressif keeps its own repositories of packages to add drivers and example code to the Arduino IDE for each of their chipsets. In order to access those packages, you must add the repositories to your Arduino IDE preferences before searching the Board Manager. Preferences is a submenu, and it has a field for adding `Additional Board Manager URLs`.  
   
